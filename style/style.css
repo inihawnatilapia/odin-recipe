@@ -1,35 +1,88 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.navigation{
-    text-align:center;
-    color:green;
-    font-size: 50px;
-    line-height: 20%;
-}
-.recep{
-    text-align: end;
-}
-.recep{
-    color:green;
-}
-img{
-    width:200px;
-}
-.recep-menu{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-}
-button{
-    color:white;
-    font-weight: bold;
-    font-size: 20px;
-    background-color: green;
-}
+    body{
+        font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: white;
+      padding: 0px 10px;
+      border-bottom: 1px solid black;
+    }
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-weight: bold;
+      color: #2e7d32;
+      text-decoration: none;
+    }
+    .logo a {
+      font-weight: bold;
+      color: #2e7d32;
+      text-decoration: none;
+    }
+    .container {
+      display: flex;
+    }
+    .sidebar {
+      width: 200px;
+      height: 600px;
+      background-color: #f4f4f4;
+      padding: 10px;
+      border-right: 1px solid #ccc;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .sidebar a {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .content {
+        display: flex;
+        padding: 20px;
+        gap:20px;
+        flex-wrap: wrap;
+    }
+    .content a{
+      text-decoration: none;
+      font-weight: bold;
+      color:#2e7d32;
+    }
+    .recipecard img{
+        width: 400px;
+        object-fit: cover;
+    }
+    .category{
+        margin-top: 0px;
+        font-size: 18px;
+    }
 
-h1,
-h2{
-    color:green;
-}
+    .content-list {
+      display: flex;
+      padding: 20px;
+      gap: 40px;
+      align-items: flex-start;
+      flex-direction: column;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .list img{
+        width: 400px;
+        height: auto;
+        object-fit: cover;
+    }
+   .list-content {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 40px;
+        margin-top: 20px;
+   }
+   .recipe h2,
+   .steps h2{
+    font-size: 40px;
+    color: #2e7d32;
+   }
+   li{
+    font-size: larger;
+   }

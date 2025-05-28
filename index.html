@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style/style.css" >
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Odin recipes</title>
+  <link href="./style/style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="navigation">
-        <h1>Odin Recipes</h1>
-        <p>pick your recipe here and enjoy!</p>
+  <header>
+    <div class="topbar">
+      <div class="logo"><h2>Odin recipes</h2>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="sidebar">
+        <h4 class="category">category</h4>
+      <a href="#">Seafood</a>
+      <a href="#">Meat</a>
+      <a href="#">Vegan</a>
+    </div>
+
+    <div class="content">
+        <div class="recipecard">
+            <img src="./img/adobo.jpg" alt="adobo">
+            <h3><a href="./recipe/adobo.html">Adobo</a></h3>
+            <p>class filipino style</p>
         </div>
-        
-        <div class="recipes">
-        
-        <div class="adobo">
-        <a href="./recipe/adobo.html"><p class="recep">adobo recipe</p></a>
-        <img src="./img/adobo.jpg" alt="adobo">
+        <div class="recipecard">
+            <img src="./img/sisig.jpg" alt="sizzling">
+            <h3><a href="./recipe/sisig.html">sisig</a></h3>
+            <p>spicy pork sizzling</p>
         </div>
-        
-        <div class="sisig">
-        <a href="./recipe/sisig.html"><p class="recep">sisig recipe</p></a>
-        <img src="./img/sisig.jpg" alt="sisig">
+        <div class="recipecard">
+            <img src="./img/tempura.jpg" alt="tempura">
+            <h3><a href="./recipe/tempura.html">Tempura</a></h3>
+            <p>crispy shrimp</p>
         </div>
-        
-        <div class="tempura">
-        <a href="./recipe/tempura.html"><p class="recep">tempura recipe</p></a>
-        <img src="./img/tempura.jpg" alt="tempura">
+        <div class="recipecard">
+            <img src="./img/calamares.jpg" alt="calamares">
+            <h3><a href="./recipe/calamares.html">Calamares</a></h3>
+            <p>crispy squid</p>
         </div>
-        
-        <div class="calamares">
-        <a href="./recipe/calamares.html"><p class="recep">calamares recipe</button></p>
-        <img src="./img/calamares.jpg" alt="calamares">
+        <div class="recipecard">
+            <img src="./img/paksiw-bangus.jpg" alt="paksiw">
+            <h3><a href="./recipe/paksiw-bangus.html">Paksiw na Bangus</a></h3>
+            <p>fish with vinegar</p>
         </div>
-        
-        <div class="paksiw-bangus">
-        <a href="./recipe/paksiw-bangus.html"><p class="recep">Paksiw na Bangus Recipe<p></a>
-        <img src="./img/paksiw-bangus.jpg" alt="paksiw-na-bangus">
-        </div>
-        
-        </div>
+    </div>
+  </div>
 </body>
 </html>
